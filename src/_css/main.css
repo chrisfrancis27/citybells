@@ -1,0 +1,897 @@
+html
+{
+	background: transparent url('../_img/plaster_wall.jpg') right top;
+	height: 100%;
+}
+
+body
+{
+	background: transparent url('../_img/engraving.png') left bottom no-repeat;
+	height: 100%;
+	font-family: 'Futura LT Medium', 'Trebuchet MS', 'Tahoma', 'Verdana';
+	overflow-x: hidden;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, ul, li, img, p
+{
+	margin: 0;
+	padding: 0;
+}
+
+cite
+{
+	font-size: 13px;
+	padding-bottom: 20px;
+	color: #333;
+}
+
+a img
+{
+	border: none;
+}
+
+a:focus,
+embed:focus,
+object:focus
+{
+	-moz-outline-style: none;
+	outline: 0 !important;
+}
+
+.hideText
+{
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+
+.clearFloat
+{
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.transparent
+{
+	visibility: hidden;
+}
+
+.js #picturePortrait_inner img,
+.js #pictureLandscape_inner img
+{
+	position: absolute;
+	top: 0;
+}
+
+.no-indent
+{
+	text-indent: 0 !important;
+}
+
+#pageWrapper
+{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+#mediaPlayerContainer
+{
+	width: 70px;
+	height: 170px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 100;
+	overflow: hidden;
+	cursor: pointer;
+	outline: 0 !important;
+	border: 0 !important;
+}
+
+#mediaPlayerWrapper
+{
+	position: absolute;
+	right: 70px;
+	width: 270px;
+	height: 400px;
+	background: transparent url('../_img/mediaplayer_bg.png');
+}
+
+#mediaPlayerHeader
+{
+	margin: 10px 0;
+}
+
+#mediaPlayerHeader h2
+{
+	width: 160px;
+	height: 30px;
+	margin: 0 auto;
+	font-family: 'AvantGarde CE', 'AvantGarde LT Book', Tahoma, Verdana;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 28px;
+	letter-spacing: -0.02em;
+	background: transparent url('../_img/player_head_bg.png') right -58px no-repeat;
+}
+
+#mediaPlayerHeader h2.playing
+{
+	background-position: right 0px;
+}
+
+#mediaPlayerHeader h2.paused
+{
+	background-position: right -30px;
+}
+
+#mediaPlayerMain
+{
+	position: absolute;
+	width: 250px;
+	height: 290px;
+	top: 50px;
+	left: 10px;
+	overflow: auto;
+}
+
+#mediaList
+{
+	float: left;
+	width: 230px;
+}
+
+#mediaList li
+{
+	list-style-type: none;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	color: #999;
+}
+
+#mediaList li.playing
+{
+	color: #000;
+}
+
+#mediaList li.hover
+{
+	cursor: pointer;
+	color: #900;
+}
+
+#mediaList span.title
+{
+	display: block;
+	font-size: 18px;
+	font-family: Tahoma, Verdana;
+}
+
+#mediaList span.subtitle
+{
+	display: block;
+	font-size: 14px;
+	font-family: Tahoma, Verdana;
+}
+
+#mediaList span.genre
+{
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Tahoma, Verdana;
+	float: right;
+}
+
+#mediaPlayerFooter
+{
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+}
+
+#mediaPlayerFooter a
+{
+	display: block;
+	height: 60px;
+	width: 90px;
+	position: absolute;
+	background: transparent url('../_img/player_btn_bg.png') 0 0 repeat-x;
+	border-left: 1px solid #999;
+	text-align: center;
+}
+
+#mediaPlayerFooter a.selected,
+#mediaPlayerFooter a:hover
+{
+	background-position: 0 -60px;
+}
+
+#mediaPlayer_songs
+{
+	left: 0;
+}
+#mediaPlayer_smallband
+{
+	left: 90px;
+}
+#mediaPlayer_styles
+{
+	left: 180px;
+}
+
+#logoWrapper
+{
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+#logoWrapper h1 a
+{
+ 	display: block;
+	width: 264px;
+	height: 74px;
+	background: transparent url('../_img/citybells_logo.png') 0 0 no-repeat;
+}
+
+#contentWrapper
+{
+	position: absolute;
+	right: 0;
+	width: 80%;
+	min-width: 960px;
+	min-height: 500px;
+	border-right: 0;
+	border-top: 0;
+}
+
+#contentWrapper a
+{
+	color: #555;
+}
+
+#contentWrapper a:hover
+{
+	color: #000;
+}
+
+#navWrapper
+{
+	position: absolute;
+	right: 0;
+	width: 338px;
+	height: 238px;
+	background: transparent url('../_img/bookshelf2.png') 0 0 no-repeat;
+}
+
+#navGlobe
+{
+	width: 99px;
+	height: 104px;
+	position: absolute;
+	background: transparent url('../_img/globe.png') 0 0 no-repeat;
+	top: 42px;
+	left: 10px;
+}
+
+#navIpod
+{
+	width: 78px;
+	height: 147px;
+	position: absolute;
+	background: transparent url('../_img/ipod.png') 0 0 no-repeat;
+	top: 40px;
+	left: 265px;
+}
+
+#ipodGlow
+{
+	position: absolute;
+	top: 18px;
+	visibility: hidden;
+}
+
+#ipodGlow.show
+{
+	visibility: visible;
+}
+
+#navLinks a
+{
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+	display: block;
+	position: absolute;
+}
+
+#navHome
+{
+	width: 25px;
+	height: 125px;
+	top: 20px;
+	left: 108px;
+	background: transparent url('../_img/arrow.png') 3px 125px no-repeat;
+}
+
+#navHome:hover,
+.home #navHome
+{
+ 	height: 153px;	
+}
+
+#navBio
+{
+	width: 30px;
+	height: 110px;
+	top: 35px;
+	left: 134px;
+	background: transparent url('../_img/arrow.png') 6px 110px no-repeat;
+}
+
+#navBio:hover,
+.bio #navBio
+{
+ 	height: 138px;	
+}
+
+#navRepertoire
+{
+	width: 28px;
+	height: 145px;
+	top: 0;
+	left: 164px;
+	background: transparent url('../_img/arrow.png') 6px 145px no-repeat;
+}
+
+#navRepertoire:hover,
+.entertainment #navRepertoire
+{
+ 	height: 173px;	
+}
+
+#navContact
+{
+	width: 70px;
+	height: 123px;
+	top: 22px;
+	left: 192px;
+	background: transparent url('../_img/arrow.png') 45px 123px no-repeat;
+}
+
+#navContact:hover,
+.contact #navContact
+{
+ 	height: 151px;	
+}
+
+#picturePortrait
+{
+	position: absolute;
+	right: 337px;
+	top: 80px;
+	width: 325px;
+	height: 365px;
+	background: transparent url('../_img/picturePortrait.png') 0 0 no-repeat;
+}
+
+#picturePortrait_inner
+{
+	display: block;
+	width: 211px;
+	height: 255px;
+	margin-top: 47px;
+	margin-left: 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.entertainment #picturePortrait_inner
+{
+	background: transparent url('../_img/portrait_paper.jpg') 0 0 no-repeat;
+	margin-top: 45px;
+}
+
+#bradybunch
+{
+	visibility: visible !important;
+}
+
+#picturePortrait_inner_edge
+{
+	display: block;
+	width: 210px;
+	height: 258px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background: transparent url('../_img/frame2_inner.png') 0 0 no-repeat;
+}
+
+#pictureLandscape
+{
+	position: absolute;
+	right: 10px;
+	top: 230px;
+	width: 329px;
+	height: 275px;
+	background: transparent url('../_img/pictureLandscape.png') 0 0 no-repeat;
+}
+
+#pictureLandscape_inner
+{
+ 	display: block;
+	width: 252px;
+	height: 192px;
+	margin-top: 33px;
+	margin-left: 30px;
+	overflow: hidden;
+	position: relative;
+}
+
+#textContent
+{
+	margin-right: 670px;
+	margin-top: 90px;
+}
+
+#textContent h2
+{
+	font-weight: normal;
+	font-size: 20px;
+	text-indent: 25px;
+}
+
+#textContent p
+{
+	font-size: 14px;
+	text-indent: 25px;
+	margin: 10px 0;
+}
+
+#textContent ul li
+{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 5px 0 5px 20px;
+	display: block;
+	list-style-type: none;
+	padding-left: 30px;
+	background: transparent url('../_img/tick.png') 0 0 no-repeat;
+}
+
+#bioIntro
+{
+	display: none;
+	margin-top: 30px;
+}
+
+.js #bioIntro
+{
+	display: block;
+}
+
+.js .bioContent,
+.js .entContent
+{
+	display: none;
+}
+
+.bioContent h3,
+.entContent h3
+{
+	font-weight: normal;
+	font-size: 19px;
+	color: #990000;
+	text-indent: 25px;
+	margin-top: 10px;
+}
+
+#saxes_bg
+{
+	width: 252px;
+	height: 194px;
+	background: transparent url('../_img/saxes_bg.jpg') 0 0 no-repeat;
+}
+
+#saxes_sop
+{
+	position: absolute;
+	width: 125px;
+	height: 82px;
+	background: transparent url('../_img/saxes_sop.png') 0 0 no-repeat;
+}
+
+#saxes_sop.selected
+{
+	background-position: 0 -82px;
+}
+
+#saxes_alto
+{
+	position: absolute;
+	top: -2px;
+	left: 125px;
+	width: 128px;
+	height: 106px;
+	background: transparent url('../_img/saxes_alto.png') 0 0 no-repeat;
+}
+
+#saxes_alto.selected
+{
+	background-position: 0 -106px;
+}
+
+#saxes_tenor
+{
+	position: absolute;
+	top: 72px;
+	left: 4px;
+	width: 134px;
+	height: 110px;
+	background: transparent url('../_img/saxes_tenor.png') 0 0 no-repeat;
+}
+
+#saxes_tenor.selected
+{
+	background-position: 0 -110px;
+}
+
+#saxes_bari
+{
+	position: absolute;
+	top: 74px;
+	left: 135px;
+	width: 121px;
+	height: 120px;
+	background: transparent url('../_img/saxes_bari.png') 0 0 no-repeat;
+}
+
+#saxes_bari.selected
+{
+	background-position: 0 -120px;
+}
+
+#hitarea_sop
+{
+	position: absolute;
+	top: 0;
+	width: 126px;
+	height: 82px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#hitarea_alto
+{
+	position: absolute;
+	top: 0;
+	left: 126px;
+	width: 126px;
+	height: 90px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#hitarea_tenor
+{
+	position: absolute;
+	top: 82px;
+	width: 135px;
+	height: 110px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#hitarea_bari
+{
+	position: absolute;
+	top: 90px;
+	left: 135px;
+	width: 135px;
+	height: 110px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+#imgBioGroup
+{
+	position: absolute;
+	top: 0;
+	visibility: visible !important;
+}
+
+#imgBioJenny,
+#imgBioChez,
+#imgBioGeorge,
+#imgBioRoger
+{
+	visibility: visible !important;
+	display: none;
+	position: absolute;
+	top: 0;
+}
+
+#entLink_events
+{
+	display: block;
+	width: 115px;
+	height: 37px;
+	background: transparent url('../_img/ent_events.png') 0 0 no-repeat;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+#entLink_events.selected
+{
+	background-position: 0 -37px;
+}
+
+#entLink_concerts
+{
+	display: block;
+	width: 135px;
+	height: 30px;
+	background: transparent url('../_img/ent_concerts.png') 0 0 no-repeat;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+#entLink_concerts.selected
+{
+	background-position: 0 -30px;
+}
+
+#entLink_weddings
+{
+	display: block;
+	width: 141px;
+	height: 31px;
+	background: transparent url('../_img/ent_weddings.png') 0 0 no-repeat;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+#entLink_weddings.selected
+{
+	background-position: 0 -31px;
+}
+
+#entLink_hornsections
+{
+	display: block;
+	width: 190px;
+	height: 25px;
+	background: transparent url('../_img/ent_hornsections.png') 0 0 no-repeat;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+#entLink_hornsections.selected
+{
+	background-position: 0 -25px;
+}
+
+#entLink_workshops
+{
+	display: block;
+	width: 153px;
+	height: 31px;
+	background: transparent url('../_img/ent_workshops.png') 0 0 no-repeat;
+	margin-top: 18px;
+	margin-left: 5px;
+}
+
+#entLink_workshops.selected
+{
+	background-position: 0 -31px;
+}
+
+#ent_landscape_content
+{
+	width: 252px;
+	height: 194px;
+	background: transparent url('../_img/landscape_ent.jpg') 0 0 no-repeat;
+	margin-top: -1px;
+}
+
+#ent_landscape_content a
+{
+	display: block;
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	top: 68px;
+	left: 148px;
+}
+
+#contactGroup
+{
+	position: absolute;
+}
+
+#mainEmail,
+#mainPhone
+{
+	font-weight: normal;
+	padding-left: 30px;
+}
+
+#mainEmail
+{
+	background: transparent url('../_img/envelope.png') 0 2px no-repeat !important;
+	font-size: 19px;
+	margin-top: 20px;
+}
+
+#mainPhone
+{
+	background: transparent url('../_img/phone.png') 0 2px no-repeat !important;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: block;
+}
+
+#emailLinks li
+{
+	float: left;
+	clear: left;
+	height: 2em !important;
+	margin: 0 !important;
+	background: none !important;
+	padding-left: 25px !important;
+}
+
+#emailLinks a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#socialNetworks
+{
+	position: absolute;
+	right: 20px;
+	top: 500px;
+}
+
+#socialNetworks ul li
+{
+	float: left;
+	list-style-type: none;
+	margin-left: 20px;
+	position: relative;
+	font-weight: normal;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+#socialNetworks ul li img
+{
+	margin-left: 2px;
+}
+
+#socialNetworks ul li div.popupContainer,
+#socialNetworks ul li a
+{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+#socialNetworks ul li a:hover
+{
+	color: #900;
+}
+
+#socialNetworks ul li .popup-inner
+{
+	color: #000;
+	text-align: left;
+}
+
+#socialNetworks ul li .popup-inner h3
+{
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: 'Futura LT Medium', 'Trebuchet MS', 'Tahoma', 'Verdana';
+	color: #900;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#socialNetworks ul li .popup-inner span.composer
+{
+	color: #999;
+	font-size: 10px
+}
+
+.popup
+{
+	padding-bottom: 10px;
+	padding-right: 10px;
+	width: 300px;
+	display: none;
+}
+
+.popup-inner
+{
+	background-color: #fff;
+	padding: 15px 10px 30px;
+}
+
+.popup-stem
+{
+ 	height: 20px;
+	background: transparent url('../_img/popup-stem.png') bottom right no-repeat;
+}
+
+#nextConcert .popup
+{
+	position: absolute;
+	z-index: 100;
+	bottom: 42px;
+	right: 25px;
+}
+
+#twitter .popup
+{
+	position: absolute;
+	z-index: 100;
+	bottom: 48px;
+	right: 10px;
+}
+
+.popup-inner a
+{
+	display: inline !important;
+	color: #900 !important;
+}
+
+.popup-inner a:hover
+{
+	text-decoration: underline !important;
+}
+
+.twitWhen
+{
+	display: block;
+	text-align: right;
+	font-style: italic;
+	padding: 20px 20px 0;
+	color: #555;
+}
+
+a.buytickets
+{
+	display: block !important;
+	padding: auto;
+}
+
+#iframeOuter
+{
+	overflow: hidden;
+	margin: 90px 0;
+}
+
+#iframeInner
+{
+	margin-left: -21px;
+	margin-top: -21px;
+}
