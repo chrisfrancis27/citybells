@@ -92,6 +92,24 @@ YUI(YUI_config).use('mediaLibrary', 'mediaPlayer', 'twitter', function(Y)
 			eventsReviewLink.set('innerHTML', 'Show recent review');
 		}
 	}
+	
+	// Show/hide workshop review
+	var workshopReview = Y.one('#workshopReview');
+	var workshopReviewLink = Y.one('#workshopReviewLink');
+	Y.on('click', onWorkshopReviewClick, workshopReviewLink);
+
+	function onWorkshopReviewClick(e) {
+		e.preventDefault();
+		
+		if (workshopReview.getStyle('display') === 'none') {
+			workshopReview.setStyle('display', 'block');
+			workshopReviewLink.set('innerHTML', 'Hide recent review');
+		}
+		else {
+			workshopReview.setStyle('display', 'none');
+			workshopReviewLink.set('innerHTML', 'Show recent review');
+		}
+	}
 });
 
 // On DOM ready

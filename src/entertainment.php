@@ -125,6 +125,10 @@ City Bells are available to hire for studio recording, live events and recording
 				
 				<p>City Bells are proud to work alongside the reputable charity <a href="http://www.music-in-hospitals.org.uk/" target="_blank">Music In Hospitals</a> to provide regular fun-filled outreach concerts within hospitals, homes, hospices and day centres throughout the UK. Visit their <a href="http://www.youtube.com/user/musicinhospitals" target="_blank">YouTube page</a> for videos detailing how the organisation is run. Or if you wish to make a donation please visit their website or email <a href="mailto:info@musicinhospitals.org.uk">info@musicinhospitals.org.uk</a>.</p>
 			
+				<p><a id="workshopReviewLink" href="#workshopReview" target="_blank">Recent review</a></p>
+				
+				<cite id="workshopReview" style="display:none">"They worked the room and were very unique. They made a dramatic entry from off stage and had a powerful finale. A highly entertaining group of young, very talented musicians who performed to a thoroughly professional standard. Our audience enjoyed them very much."</cite>
+			
 			</div>
 		
 		</div>
