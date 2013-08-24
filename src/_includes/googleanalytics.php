@@ -10,4 +10,11 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+  // Analytics custom event to track album downloads
+  YUI().use('event', function(Y) {
+    Y.one('#download').on('click', function(e) {
+      _gaq.push(['_trackEvent', 'Download album']);
+    });
+  });
+
 </script>
