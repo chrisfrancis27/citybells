@@ -45,7 +45,7 @@
 		
 			<h2>The City Bells</h2>
 
-			<p><img src="_img/bbc_radio2.png" alt="BBC Radio 2" /> As heard on BBC Radio 2 Chris Evans Breakfast Show with Seastick Steve.</p>
+			<p><img src="_img/bbc_radio2.png" alt="BBC Radio 2" /> As heard on BBC Radio 2 Chris Evans Breakfast Show with Seasick Steve.</p>
 
 			<p>This high energy group of saxophonists perform fun filled jazz and pop repertoire all over the UK. From tootling alongside function bands in London to recording sessions for original artists in Edinburgh, their light-hearted attitude to music never fails to make their audience smile - from competitive and contemporary stage recitals, to background music for weddings.</p>
 
