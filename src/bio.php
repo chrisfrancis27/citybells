@@ -61,25 +61,23 @@
 				
 				<p>Ellie is particularly keen to promote new music and has worked alongside emerging composers on a number of projects in London and abroad. She often performs original material as part of a duo with pianist Edward Pick, and with percussionist Caz Wolfson in their ensemble <a href="http://www.elliesteemson.com/joiette.html">Joiette</a>.</p>
 				
-				<p>In November of 2007, Ellie gave the UK premiere of Mike Mower’s <em>Concerto for Alto Saxophone and Wind Orchestra</em> with the Guildhall Symphonic Wind Ensemble.</p>
+				<p>In November of 2007, Ellie gave the UK premiere of Mike Mower's <em>Concerto for Alto Saxophone and Wind Orchestra</em> with the Guildhall Symphonic Wind Ensemble.</p>
 				
-				<p>She has also performed solo, chamber and large ensemble works in venues including the Barbican, LSO St Luke’s and the Wigmore Hall.</p>
+				<p>She has also performed solo, chamber and large ensemble works in venues including the Barbican, LSO St Luke's and the Wigmore Hall.</p>
 			
 			</div>
 			
 			<div class="bioContent" id="bio-alto">
 
-				<h3>Chez Taylor - Alto</h3>
+				<h3>Chez Taylor-Francis - Alto</h3>
 	
-				<p><a href="http://www.chez-taylor.co.uk/">www.chez-taylor.co.uk</a></p>
+				<p><a href="http://www.cheztaylorfrancis.co.uk/">www.cheztaylorfrancis.co.uk</a></p>
 				
-				<p>Her involvement in countless musical groups, from opera to jazz trio, gives Chez a wonderful ability to add her own unique sound to any style of music. Doubling sax with flute and clarinet, she has proven popular within the musical theatre circuit around London. Her passion for jazz has been advantageous around the gig scene, leading her bands to play such main stages as Lovebox Festival, Victoria Park, The Duke's Hall, Royal Academy of Music and even the Houses of Parliament. Chez has been heard on BBC Radio 3 and Radio 2 as well as within the BBC Television Broadcasting House.</p>
+				<p>Doubling sax with flute and clarinet has led Chez to play such main stages as Lovebox (Hackney, London), Newton's Nation (Bathurst, Australia), Alliance Francaise (Zambia, Africa) and many more. Her performances have been acclaimed by the likes of The British Arts Council, The BBC and Sony Music.</p>
 
-				<p>Beyond the role of performer, Chez has an unending enthusiasm for teaching and is proud of the progress being made by her students and ensembles within Surbiton High School for Girls. Her community masterclasses have been complimented as <em>"...a constant stream of talent, evoking an energising atmosphere for students to comprehend the knowledge surrounding them."</em> (Pambazuka News, Africa)</p>
+				<p>On her home turf, Chez has also acquired quite a few letters after her name, including DipABRSM Teaching alongside a Licentiate in Performance from the Associated Board of the Royal Schools of Music. Proving to be somewhat of a qualification junkie, she is now preparing to sit her Fellowship Diploma in Musical Performance.</p>
 
-				<p>As a young composer, Chez is fortunate to have had several pieces receive public acclaim. She has collaborated with such reputable composers as Nigel Osborne, Sally Beamish and Rick Wentworth. She has written works from solo piano through vocal ensemble to orchestral works and electro-acoustic music. This wide range of genres has led Chez to scoring for short film and games, to contemporary symphonic works.</p>
-
-				<p>When not doing all of the above, Chez also strives to compose/arrange as much new material as possible for the sax quartet, to help maintain its sparkle and contemporary edge.</p>
+				<p>Polished, unique and dependable saxophonist Chez Taylor-Francis is quickly becoming a prominent female artist on the London jazz and pop scene.</p>
 				
 				<br />
 			

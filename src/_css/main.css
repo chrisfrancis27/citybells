@@ -459,6 +459,9 @@ object:focus
 	text-indent: 25px;
 	margin: 10px 0;
 }
+#textContent p img {
+	float: right;
+}
 
 #textContent ul li
 {
